@@ -1,0 +1,33 @@
+#new {
+    position: relative;
+    text-align: center;
+    height: 2px;
+    width: 100px;
+    background: #000;
+    position:absolute
+
+}
+
+
+  
+  #new:before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 1px;
+    background: rgb(197, 197, 197);
+    left: 0;
+    top: 50%;
+    position: absolute;
+  }
+  
+  #new:after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #000;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  }
